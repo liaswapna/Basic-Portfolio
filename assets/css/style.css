@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
     height: 500px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     border-color: #dddddd;
 }
 .info h1 {
@@ -98,4 +98,30 @@ footer #copy {
     margin-top: 15px;
     color: #ffffff;
     font-size: 15px;
+}
+.container {
+    clear: both;
+    overflow: auto;
+}
+.contain-image-text {
+    position: relative;
+    height: 180px;
+    width:300px;
+    float:left;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+.port-image {
+    height: 180px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+}
+.image-text {
+    background-color: #4aaaa5;
+    padding: 10px;
+    width:200px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
 }
