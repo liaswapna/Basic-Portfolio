@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #777777;
+}
+.head {
+    background-color: #ffffff;
+    font-family: 'Georgia', 'Times', Times New Roman, serif;
+    width: 100%;
+    height: 60px;
+    margin-top: -18px;
+    border-color: #cccccc;
+}
+.name {
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: #4aaaa5;
+    height: 60px;
+    font-size: 20px;
+}
+.menu ul {
+    margin-right: 5px;
+    margin-left: 700px;
+    padding: 20px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #777777;
+}
+.contact-info {
+    background-image: url(../images/gravel.png);
+    width: 100%;
+    float: left;
+    height: 600px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.info {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    height: 500px;
+    padding: 20px;
+    margin-top: 40px;
+    border-color: #dddddd;
+}
+.info h1 {
+    color: #4aaaa5;
+    font-size: 20px;
+}
+.line-about {
+    background-color: #777777;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.info img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+p {
+    line-height: 30px;
+}
+.para2 {
+    clear: both;
+    overflow: auto;
+}
+footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    clear: both;
+    overflow: auto;
+    height: 60px;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+footer .line{
+    background-color: #4aaaa5;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;  
+}
+footer #copy {
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
