@@ -99,6 +99,7 @@ footer #copy {
     color: #ffffff;
     font-size: 15px;
 }
+/* protfolio form */
 .container {
     clear: both;
     overflow: auto;
@@ -124,4 +125,19 @@ footer #copy {
     text-align: center;
     position: absolute;
     bottom: 10px;
+}
+/* contact form */
+.form {
+    clear: both;
+    overflow: auto;
+    line-height: 30px;
+}
+textarea {
+    width: 920px;
+}
+button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
 }
