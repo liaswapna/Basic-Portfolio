@@ -114,7 +114,7 @@ footer #copy {
     width:300px;
     float:left;
     margin-bottom: 40px;
-    overflow: auto;
+    overflow: hidden;
 }
 .port-image {
     height: 180px;
