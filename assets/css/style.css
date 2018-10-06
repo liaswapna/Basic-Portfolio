@@ -34,6 +34,9 @@ body {
     display: inline;
     padding: 10px;
 }
+a:hover {
+    background-color: #4aaaa5; 
+}
 .menu ul li a {
     text-decoration: none;
     color: #777777;
